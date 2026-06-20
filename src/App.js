@@ -59,10 +59,7 @@ function App() {
               <strong>Cases:</strong>{" "}
               {country.cases.toLocaleString()}
             </p>
-            country.country
-  .toLowerCase()
-  .includes(search.toLowerCase())
-
+            
             <p>
               <strong>Recovered:</strong>{" "}
               {country.recovered.toLocaleString()}
